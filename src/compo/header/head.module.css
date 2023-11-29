@@ -1,0 +1,37 @@
+.header{
+height: 70px;
+background-color: white;
+align-items: center;
+position:sticky;
+top: 0px;
+z-index: 1;
+border-bottom: 0.7px solid #ddd;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.content h1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content ul{
+    list-style: none;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content ul li{
+    margin-left: 20px;
+}
+.content ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
